@@ -27,6 +27,8 @@ products = [
 
 #print("Products List:")
 print_my_list(products)
+# loop all products
+
 print(calculate_total_price(products[0]))
 
 
