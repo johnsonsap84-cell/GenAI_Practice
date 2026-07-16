@@ -1,0 +1,21 @@
+# Thirsty crow story as a 30-word string
+story = (
+	"Thirsty crow searched desperately, found a pitcher with little water, cleverly dropped pebbles, water rose, "
+	"crow drank happily, learned patience and cleverness, then flew away under the hot sun satisfied."
+)
+
+print(story)
+
+print("Length of the story:", len(story))
+print("the word crow appears", story.count("crow"), "times.")
+print (f"the word crow appears at index, {story.find('crow')} @ characters position ")
+
+#replace crow with raven
+story = story.replace("crow", "raven")
+print(story)
+
+words = story.split()
+print("Words in the story:", words)
+for word in words:
+    print(word)
+
